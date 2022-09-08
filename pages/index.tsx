@@ -16,7 +16,7 @@ const Home: NextPage = () => {
         <div className="pb-3 flex flex-col border-gray100 border bg-black rounded-md max-w-xs w-3/4 md:w-72">
           <section className="flex flex-col items-center py-3">
             <div className="relative w-28 h-28 rounded-full">
-              <Image className="rounded-full" src="/pfp.jpg" objectFit="fill" layout="fill" />
+              <Image className="rounded-full" src="/pfp.jpg" objectFit="fill" layout="fill" alt="Profile picture" />
             </div>
 
             <h4 className="mt-4 text-xl"> Francisco Zhou Liu </h4>
@@ -33,7 +33,7 @@ const Home: NextPage = () => {
               </a>
             </Link>
 
-            <Link passHref href="https://www.instagram.com/franciscozhou5/">
+            <Link passHref href="https://github.com/Francisco5g/">
               <a target="_blank" className="flex items-center justify-center bg-github rounded-md px-2 py-2 w-36 mt-2">
                 <FiGithub size={22} />
 
